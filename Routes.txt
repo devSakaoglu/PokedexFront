@@ -1,0 +1,26 @@
+router.get("/pokemons", getAllPokemons)
+router.get("/pokemons/:id", getOnePokemon)
+router.get("/types", getAllTypes)
+router.get("/types/:id", getOneType)
+router.get("/abilities", getAllAbilities)
+router.get("/abilities/:id", getOneAbility)
+
+
+
+
+router.get("/items", getAllItems)
+router.get("/pokeballs", getAllPokeballs)
+router.get("/berries", getAllBerries)
+router.get("/medicines", getAllMedicine)
+router.get("/generalItems", getAllGeneralItems)
+
+
+
+
+
+
+router.get("/elitefour", getEliteFour)
+router.get("/elitefour/:id", getOneEliteFour)
+router.get("/gymleaders", getAllGymLeaders)
+router.get("/gymleaders/:id", getOneGymLeaders)
+router.get("/tmasters", getAllTMs)
